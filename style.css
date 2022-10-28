@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,500;1,800&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  padding-left: 12.5%;
+}
+
+body {
+  font-family: "Open San", sans-serif;
+  background-color: honeydew;
+}
+
+#container {
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  margin-inline: auto;
+  gap: 70px;
+  justify-content: center;
+}
+
+#initial {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#member-add {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+
+#up {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 10%;
+  width: 100%;
+}
+
+#rightside {
+  width: 60%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team {
+  width: 40%;
+}
+#down {
+  display: flex;
+  flex-direction: column;
+}
+
+#members-list-container {
+  height: 500px;
+  background-color: transparent;
+  margin-block: 1%;
+  margin-top: 5%;
+  border: 1px solid rgb(74, 74, 74);
+  box-shadow: 1px 1px 1px rgba(60, 60, 60, 0.429);
+}
+
+button {
+  background-color: #697cf7;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+#teaminput button {
+  width: 30px;
+  height: 30px;
+  /* margin-inline: 10px; */
+}
+
+#teaminput {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+#input-number {
+  width: 40px;
+}
+
+#addteam {
+  width: 20%;
+}
+
+.input-number {
+  width: 20%;
+  height: 32px;
+  border: none;
+  border-radius: 3px;
+  margin-inline: 5px;
+  padding-left: 10px;
+}
+
+.input-number:focus {
+  outline: none;
+}
+
+.assign {
+  width: 80%;
+  height: 30px;
+}
+
+.resetbtn {
+  width: 15%;
+  height: 30px;
+  background-color: #d93033;
+}
+.bottom-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+#input button {
+  width: 30%;
+  height: 34px;
+  padding: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#input input {
+  width: 90%;
+  height: 30px;
+  padding: 0;
+  padding-left: 5px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 80%;
+  background-color: transparent;
+  border: 1px solid rgba(71, 71, 71, 0.208);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+  padding-inline: 8%;
+  padding-block: 2%;
+}
+
+.teammembers p {
+  text-align: start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.395);
+  padding-bottom: 5%;
+}
+
+.lineBreak {
+  height: 1px;
+  width: 90%;
+  margin-inline: auto;
+  background-color: #e3e3e3;
+}
+
+.cards {
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 13%) 0px 0px 5px 1px;
+  border-radius: 3px;
+  width: 30%;
+  height: 40%;
+  margin: 10px;
+  padding: 20px;
+}
+
+#minus-btn,
+#plus-btn {
+  background-color: #697bf7;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(246, 236, 250);
+  cursor: pointer;
+  transition: transform 0.2s;
+}

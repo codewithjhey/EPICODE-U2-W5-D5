@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Team Generator</title>
+  </head>
+  <body>
+    <h1>TEAM GENERATOR</h1>
+    <div id="container">
+      <div id="initial">
+        <div id="up">
+          <div id="member-add">
+            <p>Add Member</p>
+            <div id="input">
+              <input type="text" id="name-input" placeholder="Name" />
+              <button id="add-btn">Add</button>
+            </div>
+          </div>
+
+          <div class="team-add">
+            <p>Teams</p>
+            <div id="teaminput">
+              <button id="minus-btn">-</button>
+              <input
+                id="input-number"
+                class="input-number"
+                type="number"
+                placeholder="0"
+              />
+              <button id="plus-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="down">
+          <div id="members-list-container">
+            <ul id="list-names" class="names"></ul>
+          </div>
+          <div class="bottom-btn">
+            <button class="assign">Assign Member</button>
+            <button class="resetbtn">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="rightside"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
